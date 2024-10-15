@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu da Minha Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="logo-img">
+        <h1 class="h1">Museu Web Itarema</h1>
+    </header>
+    <main >
+
+        </div>
+        <section class="section1">
+            <h2> Centro Histórico e Cultural Museu Vicente de Paula Rios</h2>
+            <div class="div1">
+            <p class="p1">Uma breve descrição sobre a origem e importância do museu.</p>
+            <p class="p1">História e Museu da Cultura Paula Rios O Centro Histórico e Cultural Museu Vicente de Paula Rios fundado em 20 de dezembro de 2004 e é composto por um acervo de mais de 5.500 peças que, em sua grande maioria, foram doadas pelas tradicionais famílias pertencentes à região. O Centro Histórico e Cultural Museu Vicente de Paula Rios está localizado na Rua Diocesano Amâncio, s/n  Centro  Itarema/CE. Aberto para visitação de terça a sexta no horário comercial. As visitas em grupo ou individuais podem ser agendadas pelos números (88) 9991.6911/ 9992.9950/ 9996.9677</p>
+            </div>
+        </section>
+        <h2>Acervos</h2>
+        <section class="flex" >
+            <div>
+                <a href="/PWTESTS/maquinas.html"><img src="/Imagens/museu.PNG" alt="acervo"></a>
+               <p>Antigas Maquinas e instrumentos musicais local</p>
+            </div>
+            <div>
+                <a href="/PWTESTS/artezanatos.html"><img src="/Imagens/museu.PNG" alt="acervo"></a>
+               <p>Artesanato Cultural local</p>
+            </div>
+            <div>
+                <a href="/PWTESTS/moedas.html"><img src="/Imagens/museu.PNG" alt="acervo"></a>
+               <p>Moedas antigas Nacionais e Internacionais</p>
+            </div>
+        </section>
+        <div class="povos-in">
+        <h2 class="m-lista">Sobre a História e Cultura da Cidade.</h2>
+        <section>
+            <h3>Sobre a Cidade:</h3>
+            <select id="sobreitarema" onchange="redirecionar()">
+                <option value="">Opções sobre a Cidade</option>
+                <option value="https://pt.wikipedia.org/wiki/Itarema">Itarema na wikipedia</option>
+                <option value="https://www.itarema.ce.gov.br/">Site da Cidade</option>
+                <option value="https://itaremaprevi.com.br/institucional/conheca-a-cidade/">Etimológia e História</option>
+
+            </select>
+        </section>
+
+        <section>
+            <h3>Sobre os Povos indíginas local:</h3>
+            <select id="pindiginas" onchange="redirecionar2()">
+                <option value="">Sobre os povos Indíginas Tremembés</option>
+                <option value="https://pib.socioambiental.org/pt/Povo:Trememb%C3%A9#:~:text=das%20situa%C3%A7%C3%B5es%20separadamente.-,Os%20Trememb%C3%A9%20de%20Almofala,aldeia%E2%80%9D%20descreve%20bem%20a%20situa%C3%A7%C3%A3o.">Sobre os Tremembé de Almofala</option>
+                <option value="https://youtu.be/CumP4u2efgY?si=ZUT3aim1yGgJgWOm">Intrevista aos povos Tremembés</option>
+                <option value="https://www.youtube.com/live/MfqMp7Bd-2g?si=86i-67L_5iPKAKiN">Músicas dos povos Tremembés</option>
+
+            </select><br><br>
+            <a href="História dos tremembés.html" target="_self"><button class="exposition"> Mais sobre os povos Tremembés</button></a>
+        </section><br/>
+        <div class="map">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.633081210379!2d-39.916420326034746!3d-2.921409997054933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c1ffbe3035b6f5%3A0x9fd0b9522cd9a977!2sCentro%20Hist%C3%B3rico%20e%20Cultura%20Museu%20Vicente%20de%20Paula%20Rios!5e0!3m2!1sen!2sbr!4v1727204147384!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
+        <br>
+    </main>
+    <footer class="footer">
+        <p class="footer-font">&copy; 2024 Museu Web Itarema</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
