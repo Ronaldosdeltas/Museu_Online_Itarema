@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(237, 234, 234);
+    margin: 0;
+    padding: 1px;
+
+}
+
+header {
+    background-color: #333;
+    color:#333;
+    text-align:center;
+    padding: 1rem;
+}
+.logo-img{
+    background-image: url(/Imagens/hq720.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 20px;
+    height: 40vh;
+    background-position: right center;
+
+}
+
+h1 {
+    margin: 0;
+    background-color: aliceblue;
+    width:500px;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3%;
+}
+
+
+main {
+    margin: 10px;
+    padding: 0;
+    border: 0;
+    list-style: none;
+
+
+}
+
+section {
+    
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    display: flex;
+    border-radius: 5%;
+}
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
+.flex>div{
+    flex: 1 1 200px;
+    margin: 30px;
+}
+.exposition{
+    background-color: antiquewhite;
+}
+
+li{
+    list-style: none;
+}
+
+.div1{
+    background-color:blanchedalmond;
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.povos-in{
+    margin: 0px;
+    text-align: left;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    background-color: white;
+    justify-content: flex-end;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 1px;
+    background-color:aqua;
+    color:black;
+
+}
+.moedas{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.moedas>div{
+    flex: 1 1 200px;
+    margin: 20px;
+}
+.maquinas{
+   display:grid;
+    max-width: 800px;
+  
+  
+}
+
+.maquinas>div{
+   
+    margin: 20px;
+}
+.map{
+    width:100%;
+    height:100%;
+    border:0;
+   
+}
